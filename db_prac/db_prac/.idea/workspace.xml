@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4591a2db-3cfa-4bb4-829b-46c6dd57286f" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/ac/chitose/db_prac/PreExam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/ac/chitose/db_prac/PreExamDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/ac/chitose/db_prac/SelectDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jp/ac/chitose/db_prac/DeleteDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c199dd48-e4a1-4f11-bd79-e406aced866f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c199dd48-e4a1-4f11-bd79-e406aced866f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c199dd48-e4a1-4f11-bd79-e406aced866f/storage_v2/_src_/database/DB_PRAC.xegngw/schema/PUBLIC.aaZQjQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c199dd48-e4a1-4f11-bd79-e406aced866f/storage_v2/_src_/database/DB_PRAC.xegngw/schema/PUBLIC.aaZQjQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/ac/chitose/db_prac/PreExamDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jp/ac/chitose/db_prac/PreExamDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jp/ac/chitose/db_prac/PreExamDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jp/ac/chitose/db_prac/PreExamDAO.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/jp/ac/chitose/db_prac/DeleteDemo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/jp/ac/chitose/db_prac/PreExam.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/jp/ac/chitose/db_prac/PreExamDAO.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/jp/ac/chitose/db_prac/SelectDemo.java" root0="SKIP_INSPECTION" />
@@ -61,7 +64,20 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="アプリケーション.SelectDemo">
+    <configuration name="DeleteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jp.ac.chitose.db_prac.DeleteDemo" />
+      <module name="db_prac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jp.ac.chitose.db_prac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SelectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jp.ac.chitose.db_prac.SelectDemo" />
       <module name="db_prac" />
@@ -78,6 +94,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="アプリケーション.SelectDemo" />
+        <item itemvalue="アプリケーション.DeleteDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +110,7 @@
       <workItem from="1699606076945" duration="537000" />
       <workItem from="1699606642736" duration="1077000" />
       <workItem from="1699855177493" duration="11000" />
-      <workItem from="1700013006091" duration="3437000" />
+      <workItem from="1700013006091" duration="6832000" />
     </task>
     <servers />
   </component>

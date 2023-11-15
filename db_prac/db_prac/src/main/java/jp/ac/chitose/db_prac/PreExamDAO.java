@@ -11,7 +11,7 @@ public class PreExamDAO {
     private static final String USER_PASS = "Tama14808651";
     public List<PreExam> selectPreExam(int lessThan) throws SQLException{
         List<PreExam> returning = new ArrayList<>();
-        String SQL = "select * from 学生情報 where 得点 = ?";
+        String SQL = "select * from 学生情報 where 得点 <= ?";
 
         try (Connection conn = DriverManager.getConnection(URL, USER_NAME, USER_PASS);
              PreparedStatement stmt = conn.prepareStatement(SQL)){
@@ -27,5 +27,16 @@ public class PreExamDAO {
             }
         }
         return returning;
+    }
+
+    public int deletePreExam(String gakusekiCode) throws SQLException{
+        String sql = "delete from 学生情報 where 学生コード = ?";
+        int n = 0;
+        try(Connection conn = DriverManager.getConnection(URL, USER_NAME, USER_PASS);
+        PreparedStatement stmt = conn.prepareStatement(sql)){
+            stmt.setString(1,gakusekiCode);
+            n = stmt.executeUpdate();
+        }
+        return n;
     }
 }
